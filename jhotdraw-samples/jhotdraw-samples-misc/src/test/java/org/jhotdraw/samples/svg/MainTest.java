@@ -34,7 +34,6 @@ public class MainTest {
     @Test
     @FeatureEntryPoint("Main metoden")
     public void testMain() {
-        System.out.println("main");
         String[] args = {};
         Main.main(args);
 
