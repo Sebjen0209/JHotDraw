@@ -19,6 +19,7 @@
 package org.jhotdraw.samples.svg;
 
 
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.junit.Test;
 
 /**
@@ -31,6 +32,7 @@ public class MainTest {
      * Test of main method, of class Main.
      */
     @Test
+    @FeatureEntryPoint("Main metoden")
     public void testMain() {
         System.out.println("main");
         String[] args = {};
