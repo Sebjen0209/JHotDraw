@@ -50,14 +50,12 @@ public class CopyAction extends AbstractSelectionAction {
      * @param target The target of the action. Specify null for the currently
      * focused component.
      */
-    @FeatureEntryPoint("CopyAction")
     public CopyAction(JComponent target) {
         super(target);
         ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.action.Labels");
         labels.configureAction(this, ID);
     }
 
-    @FeatureEntryPoint("CopyActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;

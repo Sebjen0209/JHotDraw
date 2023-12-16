@@ -51,13 +51,12 @@ public class CutAction extends AbstractSelectionAction {
      * @param target The target of the action. Specify null for the currently
      * focused component.
      */
-    @FeatureEntryPoint("CutAction")
+
     public CutAction(JComponent target) {
         super(target);
         ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.action.Labels");
         labels.configureAction(this, ID);
     }
-    @FeatureEntryPoint("CutActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;

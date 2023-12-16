@@ -72,6 +72,7 @@ public class DuplicateAction extends AbstractSelectionAction {
         labels.configureAction(this, ID);
     }
 
+    
     @FeatureEntryPoint("DuplicateActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {

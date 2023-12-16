@@ -91,7 +91,6 @@ public class DeleteAction extends TextAction {
      * @param target The target of the action. Specify null for the currently
      * focused component.
      */
-    @FeatureEntryPoint("DeleteAction")
     protected DeleteAction(JComponent target, String id) {
         super(id);
         this.target = target;
@@ -111,7 +110,6 @@ public class DeleteAction extends TextAction {
         labels.configureAction(this, ID);
     }
 
-    @FeatureEntryPoint("DeleteActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;
