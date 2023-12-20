@@ -57,6 +57,7 @@ public class CutAction extends AbstractSelectionAction {
         ResourceBundleUtil labels = ResourceBundleUtil.getBundle("org.jhotdraw.action.Labels");
         labels.configureAction(this, ID);
     }
+    @FeatureEntryPoint("CutActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;

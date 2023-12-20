@@ -56,6 +56,7 @@ public class CopyAction extends AbstractSelectionAction {
         labels.configureAction(this, ID);
     }
 
+    @FeatureEntryPoint("CopyActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;

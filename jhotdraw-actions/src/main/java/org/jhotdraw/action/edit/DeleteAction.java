@@ -110,6 +110,7 @@ public class DeleteAction extends TextAction {
         labels.configureAction(this, ID);
     }
 
+    @FeatureEntryPoint("DeleteActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;

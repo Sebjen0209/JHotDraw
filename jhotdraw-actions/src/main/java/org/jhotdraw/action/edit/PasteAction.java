@@ -57,6 +57,7 @@ public class PasteAction extends AbstractSelectionAction {
         labels.configureAction(this, ID);
     }
 
+    @FeatureEntryPoint("PasteActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;
