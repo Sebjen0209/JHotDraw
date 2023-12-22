@@ -175,35 +175,35 @@ public class ActionsToolBar extends AbstractToolBar {
     }
 
     private void updatePopupMenu() {
+        JPopupButton pb = popupButton;
+
         if (popupButton != null) {
-            AbstractSelectedAction d;
-            JPopupButton pb = popupButton;
+
             pb.removeAll();
-            pb.add(d = new GroupAction(editor, new SVGGroupFigure()));
-            disposables.add(d);
-            pb.add(d = new UngroupAction(editor, new SVGGroupFigure()));
-            disposables.add(d);
-            pb.addSeparator();
 
-            basicEditing(pb); // det her er basic editing
+            groupSelection(pb); // this is grouping
 
-            pb.add(new SelectAllAction());
-            pb.add(d = new SelectSameAction(editor));
-            disposables.add(d);
-            pb.add(new ClearSelectionAction());
-            if (!getPopupActions().isEmpty()) {
-                pb.addSeparator();
-                for (Action a : getPopupActions()) {
-                    if (a == null) {
-                        pb.addSeparator();
-                    } else {
-                        pb.add(a);
-                    }
-                }
-            }
+            basicEditing(pb); // this is basic editing
+
+            selectActions(pb); // this is selection editing
+
         }
     }
 
+    private void selectActions(JPopupButton pb){
+        pb.add(new SelectAllAction());
+        pb.add(new SelectSameAction(editor));
+        pb.add(new ClearSelectionAction());
+    }
+
+    private void groupSelection(JPopupButton pb){
+        AbstractSelectedAction d;
+        pb.add(d = new GroupAction(editor, new SVGGroupFigure()));
+        disposables.add(d);
+        pb.add(d = new UngroupAction(editor, new SVGGroupFigure()));
+        disposables.add(d);
+        pb.addSeparator();
+    }
     private void basicEditing(JPopupButton pb){
         pb.add(new DuplicateAction());
         pb.add(new CutAction());
