@@ -179,18 +179,14 @@ public class ActionsToolBar extends AbstractToolBar {
             AbstractSelectedAction d;
             JPopupButton pb = popupButton;
             pb.removeAll();
-            pb.add(new DuplicateAction());
-            pb.addSeparator();
             pb.add(d = new GroupAction(editor, new SVGGroupFigure()));
             disposables.add(d);
             pb.add(d = new UngroupAction(editor, new SVGGroupFigure()));
             disposables.add(d);
             pb.addSeparator();
-            pb.add(new CutAction());
-            pb.add(new CopyAction());
-            pb.add(new PasteAction());
-            pb.add(new DeleteAction());
-            pb.addSeparator();
+
+            basicEditing(pb); // det her er basic editing
+
             pb.add(new SelectAllAction());
             pb.add(d = new SelectSameAction(editor));
             disposables.add(d);
@@ -206,6 +202,15 @@ public class ActionsToolBar extends AbstractToolBar {
                 }
             }
         }
+    }
+
+    private void basicEditing(JPopupButton pb){
+        pb.add(new DuplicateAction());
+        pb.add(new CutAction());
+        pb.add(new CopyAction());
+        pb.add(new PasteAction());
+        pb.add(new DeleteAction());
+        pb.addSeparator();
     }
 
     /**
