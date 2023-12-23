@@ -178,15 +178,10 @@ public class ActionsToolBar extends AbstractToolBar {
         JPopupButton pb = popupButton;
 
         if (popupButton != null) {
-
             pb.removeAll();
-
             groupSelection(pb); // this is grouping
-
             basicEditing(pb); // this is basic editing
-
             selectActions(pb); // this is selection editing
-
         }
     }
 
