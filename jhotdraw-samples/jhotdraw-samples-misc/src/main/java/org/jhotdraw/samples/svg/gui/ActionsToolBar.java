@@ -167,13 +167,13 @@ public class ActionsToolBar extends AbstractToolBar {
     }
 
     private void applyAttributesButton(){
-        AbstractButton actionLabelsBtn = ButtonFactory.createApplyAttributesButton(editor, disposables);
+        btn = ButtonFactory.createApplyAttributesButton(editor, disposables);
         btn.setUI((PaletteButtonUI) PaletteButtonUI.createUI(btn));
         labels.configureToolBarButton(btn, "attributesApply");
         gbc = new GridBagConstraints();
         gbc.gridy = 1;
-        gbc.insets = new Insets(3, 3, 0, 0);
-        p.add(actionLabelsBtn, gbc);
+        gbc.insets = new Insets(3, 0, 0, 0);
+        p.add(btn, gbc);
     }
     private void actionsButton(){
         JPopupButton pb = new JPopupButton();
