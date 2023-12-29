@@ -16,6 +16,8 @@ import javax.swing.*;
 import javax.swing.event.TreeModelEvent;
 import javax.swing.event.TreeModelListener;
 import javax.swing.tree.*;
+
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.gui.fontchooser.DefaultFontChooserModel;
 import org.jhotdraw.gui.fontchooser.FontChooserModel;
 import org.jhotdraw.gui.fontchooser.FontCollectionNode;
@@ -118,6 +120,7 @@ public class JFontChooser extends JComponent {
     /**
      * Creates new form JFontChooser
      */
+    @FeatureEntryPoint("FontChooser")
     public JFontChooser() {
         loadAllFonts();
         model = new DefaultFontChooserModel.UIResource();

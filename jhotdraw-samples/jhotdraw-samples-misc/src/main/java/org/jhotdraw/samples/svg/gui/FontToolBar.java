@@ -7,6 +7,7 @@
  */
 package org.jhotdraw.samples.svg.gui;
 
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.gui.action.ButtonFactory;
 import org.jhotdraw.gui.plaf.palette.PaletteButtonUI;
 import org.jhotdraw.gui.plaf.palette.PaletteFormattedTextFieldUI;
@@ -104,6 +105,7 @@ public class FontToolBar extends AbstractToolBar {
     }
 
     @Override
+    @FeatureEntryPoint("Choosing font")
     protected JComponent createDisclosedComponent(int state) {
         JPanel p = null;
         switch (state) {
