@@ -37,7 +37,6 @@ public class JFontChooser extends JComponent {
     private static final long serialVersionUID = 1L;
     /**
      * @see #getUIClassID
-     * @see #readObject
      */
     private static final String UI_CLASS_ID = "FontChooserUI";
     /**
@@ -394,66 +393,50 @@ public class JFontChooser extends JComponent {
      * @param newValue
      */
     protected void updateSelectionPath(Font newValue) {
-        if (newValue == null || selectionPath == null || selectionPath.getPathCount() != 4
-                || !((FontFaceNode) selectionPath.getLastPathComponent()).getFont().getFontName().equals(newValue.getFontName())) {
-            if (newValue == null) {
-                setSelectionPath(null);
-            } else {
-                TreePath path = selectionPath;
-                FontCollectionNode oldCollection = (path != null && path.getPathCount() > 1) ? (FontCollectionNode) path.getPathComponent(1) : null;
-                FontFamilyNode oldFamily = (path != null && path.getPathCount() > 2) ? (FontFamilyNode) path.getPathComponent(2) : null;
-                FontFaceNode oldFace = (path != null && path.getPathCount() > 3) ? (FontFaceNode) path.getPathComponent(3) : null;
-                FontCollectionNode newCollection = oldCollection;
-                FontFamilyNode newFamily = oldFamily;
-                FontFaceNode newFace = null;
-                // search in the current family
-                if (newFace == null && newFamily != null) {
-                    for (FontFaceNode face : newFamily.faces()) {
-                        if (face.getFont().getFontName().equals(newValue.getFontName())) {
-                            newFace = face;
-                            break;
-                        }
-                    }
-                }
-                // search in the current collection
-                if (newFace == null && newCollection != null) {
-                    for (FontFamilyNode family : newCollection.families()) {
-                        for (FontFaceNode face : family.faces()) {
-                            if (face.getFont().getFontName().equals(newValue.getFontName())) {
-                                newFamily = family;
-                                newFace = face;
-                                break;
-                            }
-                        }
-                    }
-                }
-                // search in all collections
-                if (newFace == null) {
-                    TreeNode root = (TreeNode) getModel().getRoot();
-                    OuterLoop:
-                    for (int i = 0, n = root.getChildCount(); i < n; i++) {
-                        FontCollectionNode collection = (FontCollectionNode) root.getChildAt(i);
-                        for (FontFamilyNode family : collection.families()) {
-                            for (FontFaceNode face : family.faces()) {
-                                if (face.getFont().getFontName().equals(newValue.getFontName())) {
-                                    newCollection = collection;
-                                    newFamily = family;
-                                    newFace = face;
-                                    break OuterLoop;
-                                }
-                            }
-                        }
-                    }
-                }
-                if (newFace != null) {
-                    setSelectionPath(new TreePath(new Object[]{
-                        getModel().getRoot(), newCollection, newFamily, newFace
-                    }));
-                } else {
-                    setSelectionPath(null);
-                }
+        if (newValue == null) {
+            setSelectionPath(null);
+            return;
+        }
+
+        FontFaceNode newFace = findFontFaceNode(newValue);
+        if (newFace != null) {
+            FontFamilyNode newFamily = (FontFamilyNode) newFace.getParent();
+            FontCollectionNode newCollection = (FontCollectionNode) newFamily.getParent();
+            setSelectionPath(new TreePath(new Object[]{getModel().getRoot(), newCollection, newFamily, newFace}));
+        } else {
+            setSelectionPath(null);
+        }
+    }
+
+    private FontFaceNode findFontFaceNode(Font newValue) {
+        TreeNode root = (TreeNode) getModel().getRoot();
+        for (int i = 0, n = root.getChildCount(); i < n; i++) {
+            FontCollectionNode collection = (FontCollectionNode) root.getChildAt(i);
+            FontFaceNode newFace = searchInCollection(collection, newValue);
+            if (newFace != null) {
+                return newFace;
             }
         }
+        return null;
+    }
+
+    private FontFaceNode searchInCollection(FontCollectionNode collection, Font newValue) {
+        for (FontFamilyNode family : collection.families()) {
+            FontFaceNode newFace = searchInFamily(family, newValue);
+            if (newFace != null) {
+                return newFace;
+            }
+        }
+        return null;
+    }
+
+    private FontFaceNode searchInFamily(FontFamilyNode family, Font newValue) {
+        for (FontFaceNode face : family.faces()) {
+            if (face.getFont().getFontName().equals(newValue.getFontName())) {
+                return face;
+            }
+        }
+        return null;
     }
 
     /**
