@@ -58,6 +58,10 @@ public class SVGEllipseFigure extends SVGAttributedFigure implements SVGFigure {
         setConnectable(false);
     }
 
+    public static SVGEllipseFigure defaultSVGEllipse(){
+        return new SVGEllipseFigure(0,0,0,0);
+    }
+
     // DRAWING
     @Override
     protected void drawFill(Graphics2D g) {
@@ -67,7 +71,6 @@ public class SVGEllipseFigure extends SVGAttributedFigure implements SVGFigure {
     }
 
     @Override
-    @FeatureEntryPoint("DrawEllipse")
     protected void drawStroke(Graphics2D g) {
         if (ellipse.width > 0 && ellipse.height > 0) {
             g.draw(ellipse);
@@ -161,35 +164,59 @@ public class SVGEllipseFigure extends SVGAttributedFigure implements SVGFigure {
     @Override
     @FeatureEntryPoint("EllipseTransform")
     public void transform(AffineTransform tx) {
-        if (get(TRANSFORM) != null
-                || (tx.getType() & (AffineTransform.TYPE_TRANSLATION)) != tx.getType()) {
-            if (get(TRANSFORM) == null) {
-                TRANSFORM.setClone(this, tx);
-            } else {
-                AffineTransform t = TRANSFORM.getClone(this);
-                t.preConcatenate(tx);
-                set(TRANSFORM, t);
-            }
+        if (shouldApplyTransform(tx)) {
+            applyTransform(tx);
         } else {
             Point2D.Double anchor = getStartPoint();
             Point2D.Double lead = getEndPoint();
+
             setBounds(
                     (Point2D.Double) tx.transform(anchor, anchor),
-                    (Point2D.Double) tx.transform(lead, lead));
-            if (get(FILL_GRADIENT) != null
-                    && !get(FILL_GRADIENT).isRelativeToFigureBounds()) {
-                Gradient g = FILL_GRADIENT.getClone(this);
-                g.transform(tx);
-                set(FILL_GRADIENT, g);
-            }
-            if (get(STROKE_GRADIENT) != null
-                    && !get(STROKE_GRADIENT).isRelativeToFigureBounds()) {
-                Gradient g = STROKE_GRADIENT.getClone(this);
-                g.transform(tx);
-                set(STROKE_GRADIENT, g);
-            }
+                    (Point2D.Double) tx.transform(lead, lead)
+            );
+
+            transformGradients(tx);
+            invalidate();
         }
+    }
+
+    private boolean shouldApplyTransform(AffineTransform tx) {
+        return (get(TRANSFORM) != null || (tx.getType() & (AffineTransform.TYPE_TRANSLATION)) != tx.getType());
+    }
+
+    private void applyTransform(AffineTransform tx) {
+        Point2D.Double anchor = getStartPoint();
+        Point2D.Double lead = getEndPoint();
+
+        if (get(TRANSFORM) == null) {
+            TRANSFORM.setClone(this, tx);
+        } else {
+            AffineTransform t = TRANSFORM.getClone(this);
+            t.preConcatenate(tx);
+            set(TRANSFORM, t);
+        }
+
+        setBounds(
+                (Point2D.Double) tx.transform(anchor, anchor),
+                (Point2D.Double) tx.transform(lead, lead)
+        );
+
+        transformGradients(tx);
         invalidate();
+    }
+
+    private void transformGradients(AffineTransform tx) {
+        if (get(FILL_GRADIENT) != null && !get(FILL_GRADIENT).isRelativeToFigureBounds()) {
+            Gradient fillGradient = FILL_GRADIENT.getClone(this);
+            fillGradient.transform(tx);
+            set(FILL_GRADIENT, fillGradient);
+        }
+
+        if (get(STROKE_GRADIENT) != null && !get(STROKE_GRADIENT).isRelativeToFigureBounds()) {
+            Gradient strokeGradient = STROKE_GRADIENT.getClone(this);
+            strokeGradient.transform(tx);
+            set(STROKE_GRADIENT, strokeGradient);
+        }
     }
 
     @Override
