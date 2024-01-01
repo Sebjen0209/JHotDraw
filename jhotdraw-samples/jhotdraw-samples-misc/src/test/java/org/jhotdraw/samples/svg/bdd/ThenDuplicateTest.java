@@ -13,16 +13,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 public class ThenDuplicateTest extends Stage<ThenDuplicateTest> {
-
     @ExpectedScenarioState
     Graphics2D graphics;
-
     @ExpectedScenarioState
     Shape shape;
-
     @ExpectedScenarioState
     SVGRectFigure rectangle;
-
     public ThenDuplicateTest userGetsADuplicate(){
         assertNotNull(graphics);
         assertNotNull(shape);

@@ -12,18 +12,14 @@ import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 
 public class WhenDuplicateTest extends Stage<WhenDuplicateTest> {
-
     @ScenarioStage
     SVGRectFigure rectangle;
-
     @ScenarioStage
-    int width;
-
+    Double width;
     @ScenarioStage
-    int height;
+    Double height;
     @ScenarioState
     Graphics2D graphics;
-
     @ScenarioState
     Shape shape;
     public WhenDuplicateTest userDuplicates(){

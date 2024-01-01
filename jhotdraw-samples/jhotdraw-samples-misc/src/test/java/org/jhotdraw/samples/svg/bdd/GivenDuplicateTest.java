@@ -9,21 +9,17 @@ import org.mockito.Mockito;
 import java.awt.*;
 
 public class GivenDuplicateTest extends Stage<GivenDuplicateTest> {
-
     @ScenarioStage
     SVGRectFigure rectangle;
-
     @ScenarioStage
-    int width;
-
+    Double width;
     @ScenarioStage
-    int height;
+    Double height;
     @ScenarioState
     Graphics2D graphics;
-
     public GivenDuplicateTest userWantsToDuplicate(){
-        width = 200;
-        height = 150;
+        width = 200.0;
+        height = 150.0;
         rectangle = new SVGRectFigure(20,10,width,height);
 
         graphics = Mockito.mock(Graphics2D.class);

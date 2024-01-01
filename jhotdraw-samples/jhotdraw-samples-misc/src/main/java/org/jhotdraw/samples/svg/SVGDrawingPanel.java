@@ -491,17 +491,17 @@ public class SVGDrawingPanel extends JPanel implements Disposable {
         toolsPanel = new javax.swing.JPanel();
         toolsScrollPane = new javax.swing.JScrollPane();
         toolsPane = new javax.swing.JPanel();
-        creationToolBar = new org.jhotdraw.samples.svg.gui.ToolsToolBar();
-        actionToolBar = new org.jhotdraw.samples.svg.gui.ActionsToolBar();
-        fillToolBar = new org.jhotdraw.samples.svg.gui.FillToolBar();
-        strokeToolBar = new org.jhotdraw.samples.svg.gui.StrokeToolBar();
-        fontToolBar = new org.jhotdraw.samples.svg.gui.FontToolBar();
-        arrangeToolBar = new org.jhotdraw.samples.svg.gui.ArrangeToolBar();
-        alignToolBar = new org.jhotdraw.samples.svg.gui.AlignToolBar();
-        figureToolBar = new org.jhotdraw.samples.svg.gui.FigureToolBar();
-        linkToolBar = new org.jhotdraw.samples.svg.gui.LinkToolBar();
-        canvasToolBar = new org.jhotdraw.samples.svg.gui.CanvasToolBar();
-        viewToolBar = new org.jhotdraw.samples.svg.gui.ViewToolBar();
+        creationToolBar = new org.jhotdraw.samples.svg.actionGUI.ToolsToolBar();
+        actionToolBar = new org.jhotdraw.samples.svg.actionGUI.ActionsToolBar();
+        fillToolBar = new org.jhotdraw.samples.svg.actionGUI.FillToolBar();
+        strokeToolBar = new org.jhotdraw.samples.svg.actionGUI.StrokeToolBar();
+        fontToolBar = new org.jhotdraw.samples.svg.actionGUI.FontToolBar();
+        arrangeToolBar = new org.jhotdraw.samples.svg.actionGUI.ArrangeToolBar();
+        alignToolBar = new org.jhotdraw.samples.svg.actionGUI.AlignToolBar();
+        figureToolBar = new org.jhotdraw.samples.svg.actionGUI.FigureToolBar();
+        linkToolBar = new org.jhotdraw.samples.svg.actionGUI.LinkToolBar();
+        canvasToolBar = new org.jhotdraw.samples.svg.actionGUI.CanvasToolBar();
+        viewToolBar = new org.jhotdraw.samples.svg.actionGUI.ViewToolBar();
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
         scrollPane.setBorder(null);
@@ -537,22 +537,22 @@ public class SVGDrawingPanel extends JPanel implements Disposable {
         add(toolsPanel, java.awt.BorderLayout.SOUTH);
     }// </editor-fold>//GEN-END:initComponents
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private org.jhotdraw.samples.svg.gui.ActionsToolBar actionToolBar;
-    private org.jhotdraw.samples.svg.gui.AlignToolBar alignToolBar;
-    private org.jhotdraw.samples.svg.gui.ArrangeToolBar arrangeToolBar;
-    private org.jhotdraw.samples.svg.gui.CanvasToolBar canvasToolBar;
-    private org.jhotdraw.samples.svg.gui.ToolsToolBar creationToolBar;
-    private org.jhotdraw.samples.svg.gui.FigureToolBar figureToolBar;
-    private org.jhotdraw.samples.svg.gui.FillToolBar fillToolBar;
-    private org.jhotdraw.samples.svg.gui.FontToolBar fontToolBar;
-    private org.jhotdraw.samples.svg.gui.LinkToolBar linkToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.ActionsToolBar actionToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.AlignToolBar alignToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.ArrangeToolBar arrangeToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.CanvasToolBar canvasToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.ToolsToolBar creationToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.FigureToolBar figureToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.FillToolBar fillToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.FontToolBar fontToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.LinkToolBar linkToolBar;
     private javax.swing.JScrollPane scrollPane;
-    private org.jhotdraw.samples.svg.gui.StrokeToolBar strokeToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.StrokeToolBar strokeToolBar;
     private javax.swing.ButtonGroup toolButtonGroup;
     private javax.swing.JPanel toolsPane;
     private javax.swing.JPanel toolsPanel;
     private javax.swing.JScrollPane toolsScrollPane;
     private org.jhotdraw.draw.DefaultDrawingView view;
-    private org.jhotdraw.samples.svg.gui.ViewToolBar viewToolBar;
+    private org.jhotdraw.samples.svg.actionGUI.ViewToolBar viewToolBar;
     // End of variables declaration//GEN-END:variables
 }
