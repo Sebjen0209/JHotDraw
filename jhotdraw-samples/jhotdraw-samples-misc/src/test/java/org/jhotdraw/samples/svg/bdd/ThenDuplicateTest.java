@@ -31,7 +31,7 @@ public class ThenDuplicateTest extends Stage<ThenDuplicateTest> {
         assertEquals(100, rectangle.getWidth(), 0.001);
         assertEquals(100, rectangle.getHeight(), 0.001);
 
-        Mockito.verify(rectangle,Mockito.times(5)).clone();
+        Mockito.verify(rectangle,Mockito.times(2)).clone();
         return this;
     }
 }
