@@ -10,6 +10,8 @@ package org.jhotdraw.gui;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.gui.plaf.palette.PaletteButtonUI;
 import org.jhotdraw.gui.plaf.palette.PaletteToolBarUI;
 
@@ -49,6 +51,7 @@ public class JDisclosureToolBar extends JToolBar {
             disclosureButton.putClientProperty(DisclosureIcon.CURRENT_STATE_PROPERTY, 1);
             disclosureButton.putClientProperty(DisclosureIcon.STATE_COUNT_PROPERTY, 2);
             disclosureButton.addActionListener(new ActionListener() {
+                @FeatureEntryPoint(value = "display-tools")
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     int newState = ((Integer) disclosureButton.getClientProperty(DisclosureIcon.CURRENT_STATE_PROPERTY) + 1)
