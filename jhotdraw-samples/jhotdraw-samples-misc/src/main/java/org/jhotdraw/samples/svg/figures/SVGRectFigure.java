@@ -10,6 +10,8 @@ package org.jhotdraw.samples.svg.figures;
 import java.awt.*;
 import java.awt.geom.*;
 import java.util.*;
+
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.draw.*;
 import static org.jhotdraw.draw.AttributeKeys.FILL_COLOR;
 import static org.jhotdraw.draw.AttributeKeys.STROKE_CAP;
@@ -76,6 +78,7 @@ public class SVGRectFigure extends SVGAttributedFigure implements SVGFigure {
         this(0, 0, 0, 0);
     }
 
+    @FeatureEntryPoint("DrawRectangle")
     public SVGRectFigure(double x, double y, double width, double height) {
         this(x, y, width, height, 0, 0);
     }
@@ -269,6 +272,7 @@ public class SVGRectFigure extends SVGAttributedFigure implements SVGFigure {
      *
      * @param tx The transformation.
      */
+    @FeatureEntryPoint("EditRectangle")
     @Override
     public void transform(AffineTransform tx) {
         invalidateTransformedShape();
