@@ -19,7 +19,6 @@
 package org.jhotdraw.samples.svg;
 
 
-import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.junit.Test;
 
 /**

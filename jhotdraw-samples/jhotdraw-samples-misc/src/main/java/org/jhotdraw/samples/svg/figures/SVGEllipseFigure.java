@@ -47,9 +47,6 @@ public class SVGEllipseFigure extends SVGAttributedFigure implements SVGFigure {
     /**
      * Creates a new instance.
      */
-    public SVGEllipseFigure() {
-        this(0, 0, 0, 0);
-    }
 
     @FeatureEntryPoint("EllipseFigure")
     public SVGEllipseFigure(double x, double y, double width, double height) {
@@ -59,7 +56,7 @@ public class SVGEllipseFigure extends SVGAttributedFigure implements SVGFigure {
     }
 
     public static SVGEllipseFigure defaultSVGEllipse(){
-        return new SVGEllipseFigure(0,0,0,0);
+        return new SVGEllipseFigure(0, 0, 0, 0);
     }
 
     // DRAWING
@@ -242,7 +239,7 @@ public class SVGEllipseFigure extends SVGAttributedFigure implements SVGFigure {
     // EDITING
     @Override
     public Collection<Handle> createHandles(int detailLevel) {
-        LinkedList<Handle> handles = new LinkedList<Handle>();
+        LinkedList<Handle> handles = new LinkedList<>();
         switch (detailLevel % 2) {
             case -1: // Mouse hover handles
                 handles.add(new BoundsOutlineHandle(this, false, true));
