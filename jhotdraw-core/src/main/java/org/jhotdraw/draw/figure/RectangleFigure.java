@@ -37,7 +37,6 @@ public class RectangleFigure extends AbstractAttributedFigure {
     }
 
     // DRAWING
-    @FeatureEntryPoint("DrawRectangle")
     @Override
     protected void drawFill(Graphics2D g) {
         Rectangle2D.Double r = (Rectangle2D.Double) rectangle.clone();
@@ -46,6 +45,7 @@ public class RectangleFigure extends AbstractAttributedFigure {
         g.fill(r);
     }
 
+    @FeatureEntryPoint("DrawRectangle")
     @Override
     protected void drawStroke(Graphics2D g) {
         Rectangle2D.Double r = (Rectangle2D.Double) rectangle.clone();
