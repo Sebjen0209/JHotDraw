@@ -7,6 +7,7 @@
  */
 package org.jhotdraw.draw.handle;
 
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.draw.figure.TextHolderFigure;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -127,6 +128,7 @@ public class FontSizeHandle extends LocatorHandle {
         fireUndoableEditHappened(edit);
     }
 
+    @FeatureEntryPoint("FontSize")
     @Override
     public void keyPressed(KeyEvent evt) {
         final TextHolderFigure textOwner = (TextHolderFigure) getOwner();

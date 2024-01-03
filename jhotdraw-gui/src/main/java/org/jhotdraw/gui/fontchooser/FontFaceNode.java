@@ -7,6 +7,8 @@
  */
 package org.jhotdraw.gui.fontchooser;
 
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
+
 import java.awt.Font;
 import java.util.Collections;
 import java.util.Enumeration;
@@ -29,7 +31,7 @@ public class FontFaceNode implements MutableTreeNode, Comparable<FontFaceNode>, 
         this.typeface = typeface;
         this.name = beautifyName(typeface.getPSName());
     }
-
+    @FeatureEntryPoint("Bold & Italic")
     protected String beautifyName(String name) {
         // 'Beautify' the name
         int p = name.lastIndexOf('-');
