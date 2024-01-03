@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+<module name="Checker"><module name="SuppressWarningsFilter"/>
+<module name="FileTabCharacter"/>
+<module name="TreeWalker"><module name="SuppressionCommentFilter"/>
+<module name="AvoidNestedBlocks"/>
+<module name="ConstantName"/>
+<module name="EmptyCatchBlock"/>
+<module name="EmptyStatement"/>
+<module name="MissingOverride"/>
+<module name="StringLiteralEquality"/>
+<module name="RedundantImport"/>
+<module name="UnusedImports"/>
+<module name="WhitespaceAfter"/>
+<module name="NeedBraces"/>
+<module name="LeftCurly"/>
+<module name="RightCurly"/>
+<module name="SuppressWarningsHolder"/>
+</module>
+</module>

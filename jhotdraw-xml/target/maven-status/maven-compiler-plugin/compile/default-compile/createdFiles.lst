@@ -1,0 +1,14 @@
+org\jhotdraw\xml\css\CSSRule.class
+org\jhotdraw\xml\css\CSSRule$1.class
+org\jhotdraw\xml\DOMOutput.class
+org\jhotdraw\xml\JavaPrimitivesDOMFactory.class
+org\jhotdraw\xml\css\CSSRule$SelectorType.class
+org\jhotdraw\xml\DOMStorable.class
+org\jhotdraw\xml\JavaxDOMInput.class
+org\jhotdraw\xml\XMLTransferable.class
+org\jhotdraw\xml\css\StyleManager.class
+org\jhotdraw\xml\DOMFactory.class
+org\jhotdraw\xml\DOMInput.class
+org\jhotdraw\xml\JavaxDOMOutput.class
+org\jhotdraw\xml\DefaultDOMFactory.class
+org\jhotdraw\xml\css\CSSParser.class

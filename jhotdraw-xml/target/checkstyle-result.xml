@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\css\CSSParser.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\css\CSSRule.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\css\package-info.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\css\StyleManager.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\DefaultDOMFactory.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\DOMFactory.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\DOMInput.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\DOMOutput.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\DOMStorable.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\JavaPrimitivesDOMFactory.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\JavaxDOMInput.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\JavaxDOMOutput.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\package-info.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-xml\src\main\java\org\jhotdraw\xml\XMLTransferable.java">
+</file>
+</checkstyle>

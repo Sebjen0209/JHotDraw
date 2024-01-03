@@ -1,0 +1,11 @@
+org\jhotdraw\api\app\Disposable.class
+org\jhotdraw\api\app\MenuBuilder.class
+org\jhotdraw\api\gui\Arrangeable.class
+org\jhotdraw\api\app\View.class
+org\jhotdraw\api\gui\Arrangeable$Arrangement.class
+org\jhotdraw\api\gui\ActivityModel.class
+org\jhotdraw\api\gui\URIChooser.class
+org\jhotdraw\api\gui\EditableComponent.class
+org\jhotdraw\api\gui\AttributeEditor.class
+org\jhotdraw\api\app\Application.class
+org\jhotdraw\api\app\ApplicationModel.class
