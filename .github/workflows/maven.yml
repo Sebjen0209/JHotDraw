@@ -16,8 +16,8 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
-    - name: Build and Test with Maven
+    - name: Build and Test with Maven in Headless mode
       env:
           SECRET_USER: ${{secrets.SECRET_USER}}
           SECRET_TOKEN: ${{secrets.SECRET_TOKEN}}
-      run: mvn -B package --batch-mode -s settings.xml --file pom.xml
+      run: mvn -B package --batch-mode -Djava.awt.headless=true -s settings.xml --file pom.xml
