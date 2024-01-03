@@ -35,37 +35,47 @@ public class JDisclosureToolBar extends JToolBar {
     }
 
     private void initComponents() {
-        GridBagConstraints gbc;
-        AbstractButton btn;
         setLayout(new GridBagLayout());
-        gbc = new GridBagConstraints();
-        if (disclosureButton == null) {
-            btn = new JButton();
-            btn.setUI((PaletteButtonUI) PaletteButtonUI.createUI(btn));
-            btn.setBorderPainted(false);
-            btn.setIcon(new DisclosureIcon());
-            btn.setOpaque(false);
-            disclosureButton = (JButton) btn;
-            disclosureButton.putClientProperty(DisclosureIcon.CURRENT_STATE_PROPERTY, 1);
-            disclosureButton.putClientProperty(DisclosureIcon.STATE_COUNT_PROPERTY, 2);
-            disclosureButton.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    int newState = ((Integer) disclosureButton.getClientProperty(DisclosureIcon.CURRENT_STATE_PROPERTY) + 1)
-                            % (Integer) disclosureButton.getClientProperty(DisclosureIcon.STATE_COUNT_PROPERTY);
-                    setDisclosureState(newState);
-                }
-            });
-        } else {
-            btn = disclosureButton;
-        }
+        GridBagConstraints gbc = new GridBagConstraints();
+
+        JButton disclosureButton = createDisclosureButton();
         gbc.gridx = 0;
         gbc.insets = new Insets(0, 1, 0, 1);
         gbc.anchor = GridBagConstraints.SOUTHWEST;
         gbc.fill = GridBagConstraints.NONE;
         gbc.weighty = 1d;
         gbc.weightx = 1d;
-        add(btn, gbc);
+        add(disclosureButton, gbc);
+
+        configureToolBarProperties();
+    }
+
+    private JButton createDisclosureButton() {
+        JButton btn = (disclosureButton == null) ? createNewButton() : disclosureButton;
+
+        btn.addActionListener(e -> {
+            int newState = ((Integer) btn.getClientProperty(DisclosureIcon.CURRENT_STATE_PROPERTY) + 1) %
+                    (Integer) btn.getClientProperty(DisclosureIcon.STATE_COUNT_PROPERTY);
+            setDisclosureState(newState);
+        });
+
+        return btn;
+    }
+
+    private JButton createNewButton() {
+        JButton btn = new JButton();
+        btn.setUI((PaletteButtonUI) PaletteButtonUI.createUI(btn));
+        btn.setBorderPainted(false);
+        btn.setIcon(new DisclosureIcon());
+        btn.setOpaque(false);
+        btn.putClientProperty(DisclosureIcon.CURRENT_STATE_PROPERTY, 1);
+        btn.putClientProperty(DisclosureIcon.STATE_COUNT_PROPERTY, 2);
+
+        disclosureButton = btn;
+        return btn;
+    }
+
+    private void configureToolBarProperties() {
         putClientProperty(PaletteToolBarUI.TOOLBAR_INSETS_OVERRIDE_PROPERTY, new Insets(0, 0, 0, 0));
         putClientProperty(PaletteToolBarUI.TOOLBAR_ICON_PROPERTY, new EmptyIcon(10, 8));
     }
@@ -79,44 +89,64 @@ public class JDisclosureToolBar extends JToolBar {
     public void setDisclosureState(int newValue) {
         int oldValue = getDisclosureState();
         disclosureButton.putClientProperty(DisclosureIcon.CURRENT_STATE_PROPERTY, newValue);
+
         removeAll();
-        JComponent c = getDisclosedComponent(newValue);
-        GridBagConstraints gbc = new GridBagConstraints();
-        if (c != null) {
-            gbc = new GridBagConstraints();
-            gbc.gridx = 1;
-            gbc.weightx = 1d;
-            gbc.weighty = 1d;
-            gbc.fill = GridBagConstraints.BOTH;
-            gbc.anchor = GridBagConstraints.WEST;
-            add(c, gbc);
-            gbc = new GridBagConstraints();
-            gbc.gridx = 0;
-            gbc.weightx = 0d;
-            gbc.insets = new Insets(0, 1, 0, 1);
-            gbc.weighty = 1d;
-            gbc.fill = GridBagConstraints.NONE;
-            gbc.anchor = GridBagConstraints.SOUTHWEST;
-            add(disclosureButton, gbc);
+
+        JComponent disclosedComponent = getDisclosedComponent(newValue);
+        GridBagConstraints gbc = createDefaultGridBagConstraints();
+
+        if (disclosedComponent != null) {
+            addDisclosedComponent(newValue, disclosedComponent, gbc);
         } else {
-            gbc = new GridBagConstraints();
-            gbc.gridx = 1;
-            gbc.weightx = 1d;
-            gbc.weighty = 1d;
-            gbc.fill = GridBagConstraints.NONE;
-            gbc.anchor = GridBagConstraints.SOUTHWEST;
-            gbc.insets = new Insets(0, 1, 0, 1);
-            add(disclosureButton, gbc);
+            addDisclosureButtonWithoutComponent(gbc);
         }
+
+        validateAndRepaint();
+        firePropertyChange(DISCLOSURE_STATE_PROPERTY, oldValue, newValue);
+    }
+
+    private GridBagConstraints createDefaultGridBagConstraints() {
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.weightx = 1d;
+        gbc.weighty = 1d;
+        gbc.insets = new Insets(0, 1, 0, 1);
+        return gbc;
+    }
+
+    private void addDisclosedComponent(int newValue, JComponent disclosedComponent, GridBagConstraints gbc) {
+        gbc.gridx = 1;
+        gbc.fill = GridBagConstraints.BOTH;
+        gbc.anchor = GridBagConstraints.WEST;
+        add(disclosedComponent, gbc);
+
+        gbc.gridx = 0;
+        gbc.fill = GridBagConstraints.NONE;
+        gbc.anchor = GridBagConstraints.SOUTHWEST;
+        add(disclosureButton, gbc);
+    }
+
+    private void addDisclosureButtonWithoutComponent(GridBagConstraints gbc) {
+        gbc.gridx = 1;
+        gbc.fill = GridBagConstraints.NONE;
+        gbc.anchor = GridBagConstraints.SOUTHWEST;
+        add(disclosureButton, gbc);
+    }
+
+    private void validateAndRepaint() {
         invalidate();
+        Container parent = findValidParentContainer();
+        parent.validate();
+        repaint();
+    }
+
+    private Container findValidParentContainer() {
         Container parent = getParent();
         while (parent.getParent() != null && !parent.getParent().isValid()) {
             parent = parent.getParent();
         }
-        parent.validate();
-        repaint();
-        firePropertyChange(DISCLOSURE_STATE_PROPERTY, oldValue, newValue);
+        return parent;
     }
+
 
     public int getDisclosureStateCount() {
         Integer value = (Integer) disclosureButton.getClientProperty(DisclosureIcon.STATE_COUNT_PROPERTY);
