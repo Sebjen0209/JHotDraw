@@ -20,4 +20,4 @@ jobs:
       env:
           SECRET_USER: ${{secrets.SECRET_USER}}
           SECRET_TOKEN: ${{secrets.SECRET_TOKEN}}
-      run: mvn -B package --batch-mode -DskipTests -s settings.xml --file pom.xml
+      run: mvn -B package --batch-mode -s settings.xml --file pom.xml
