@@ -93,32 +93,32 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
               <SubComponents>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.ToolsToolBar" name="creationToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.ToolsToolBar" name="creationToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.ActionsToolBar" name="actionToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.ActionsToolBar" name="actionToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.FillToolBar" name="fillToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.FillToolBar" name="fillToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.StrokeToolBar" name="strokeToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.StrokeToolBar" name="strokeToolBar">
                   <Properties>
                     <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
                       <Insets value="[0, 10, 0, 0]"/>
                     </Property>
                   </Properties>
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.FontToolBar" name="fontToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.FontToolBar" name="fontToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.ArrangeToolBar" name="arrangeToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.ArrangeToolBar" name="arrangeToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.AlignToolBar" name="alignToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.AlignToolBar" name="alignToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.FigureToolBar" name="figureToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.FigureToolBar" name="figureToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.LinkToolBar" name="linkToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.LinkToolBar" name="linkToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.CanvasToolBar" name="canvasToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.CanvasToolBar" name="canvasToolBar">
                 </Component>
-                <Component class="org.jhotdraw.samples.svg.actionGUI.ViewToolBar" name="viewToolBar">
+                <Component class="org.jhotdraw.samples.svg.gui.ViewToolBar" name="viewToolBar">
                 </Component>
               </SubComponents>
             </Container>
