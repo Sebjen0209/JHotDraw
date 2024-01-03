@@ -23,6 +23,7 @@ public class EllipseUnitTest {
     @Test
     public void EllipseDefaultCreation(){
         SVGEllipseFigure ellipse =  SVGEllipseFigure.defaultSVGEllipse();
+
         assertNotNull(ellipse);
         assertEquals(0, ellipse.getX(), 0.0);
         assertEquals(0, ellipse.getY(), 0.0);
