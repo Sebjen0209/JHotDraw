@@ -1,0 +1,6 @@
+org\jhotdraw\samples\svg\actionGUI\ActionsToolBarTest.class
+org\jhotdraw\samples\svg\bdd\GivenDuplicateTest.class
+org\jhotdraw\samples\svg\MainTest.class
+org\jhotdraw\samples\svg\bdd\DuplicateBDDTest.class
+org\jhotdraw\samples\svg\bdd\ThenDuplicateTest.class
+org\jhotdraw\samples\svg\bdd\WhenDuplicateTest.class

@@ -1,273 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractColorSlidersModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractColorSlidersModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractColorWheelImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractColorWheelImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractHarmonicRule.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractHarmonicRule.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractNamedColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\AbstractNamedColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CIELABColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CIELABColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CIELCHabColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CIELCHabColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CIEXYChromaticityDiagramImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CIEXYChromaticityDiagramImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CMYKGenericColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CMYKGenericColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CMYKNominalColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CMYKNominalColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorListCellRenderer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorListCellRenderer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorSliderModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorSliderModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorSliderUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorSliderUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorSquareImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorSquareImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorTrackImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorTrackImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorUtil.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorUtil.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorWheelChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ColorWheelChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ComplexColorWheelImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\ComplexColorWheelImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CompositeColor.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\CompositeColor.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\DefaultColorSliderModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\DefaultColorSliderModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\DefaultHarmonicColorModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\DefaultHarmonicColorModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\DiskColorWheelImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\DiskColorWheelImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HarmonicColorModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HarmonicColorModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HarmonicRule.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HarmonicRule.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSBColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSBColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSLColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSLColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSLHarmonicColorWheelImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSLHarmonicColorWheelImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSLPhysiologicColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSLPhysiologicColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSVColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSVColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSVHarmonicColorWheelImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSVHarmonicColorWheelImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSVPhysiologicColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\HSVPhysiologicColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\JColorWheel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\JColorWheel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\JHarmonicColorWheel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\JHarmonicColorWheel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\NamedColorSpace.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\NamedColorSpace.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\PolarColorWheelImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\PolarColorWheelImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\QuantizingColorWheelImageProducer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\QuantizingColorWheelImageProducer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\SimpleHarmonicRule.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\color\SimpleHarmonicRule.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeSlider.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeSlider.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeSliderBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeSliderBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextArea.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextArea.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextAreaBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextAreaBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextField.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextField.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextFieldBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\JAttributeTextFieldBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\draw\gui\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\ButtonFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\ButtonFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditCanvasAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditCanvasAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditCanvasPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditCanvasPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditGridAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditGridAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditGridPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\EditGridPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\FontChooserHandler.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\action\FontChooserHandler.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\ActivityManager.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\ActivityManager.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\DefaultActivityModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\DefaultActivityModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\Dialogs.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\Dialogs.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\DisclosureIcon.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\DisclosureIcon.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\EmptyIcon.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\EmptyIcon.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\ActivityManagerEvent.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\ActivityManagerEvent.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\ActivityManagerListener.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\ActivityManagerListener.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\GenericListener.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\GenericListener.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\SheetEvent.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\SheetEvent.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\SheetListener.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\event\SheetListener.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\AbstractFontChooserModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\AbstractFontChooserModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\DefaultFontChooserModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\DefaultFontChooserModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontChooserModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontChooserModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontCollectionNode.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontCollectionNode.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontFaceNode.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontFaceNode.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontFamilyNode.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\FontFamilyNode.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\fontchooser\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JActivityIndicator.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JActivityIndicator.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JActivityView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JActivityView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JActivityWindow.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JActivityWindow.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JComponentPopup.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JComponentPopup.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JDisclosureToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JDisclosureToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JDisclosureToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JDisclosureToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JFileURIChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JFileURIChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JFontChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JFontChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTexAreaBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTexAreaBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTextArea.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTextArea.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTextField.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTextField.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTextFieldBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JLifeFormattedTextFieldBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JMDIDesktopPane.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JMDIDesktopPane.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JPopupButton.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JPopupButton.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JPopupButtonBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JPopupButtonBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JSheet.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\JSheet.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\PlacardScrollPaneLayout.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\PlacardScrollPaneLayout.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\FontChooserUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\FontChooserUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\BackdropBorder.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\BackdropBorder.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\ColorIcon.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\ColorIcon.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\ColorSliderTextFieldHandler.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\ColorSliderTextFieldHandler.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteCMYKChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteCMYKChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorChooserMainPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorChooserMainPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorChooserPreviewPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorChooserPreviewPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorSliderModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorSliderModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorSlidersChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorSlidersChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorWheelChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteColorWheelChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteHSBChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteHSBChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteRGBChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteRGBChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteSwatchesChooser.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\colorchooser\PaletteSwatchesChooser.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\MultiIcon.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\MultiIcon.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteBorders.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteBorders.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteButtonBorder.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteButtonBorder.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteButtonUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteButtonUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteColorChooserUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteColorChooserUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteColorSliderUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteColorSliderUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFontChooserPreviewPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFontChooserPreviewPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFontChooserSelectionPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFontChooserSelectionPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFontChooserUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFontChooserUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFormattedTextFieldUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteFormattedTextFieldUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteLabelUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteLabelUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteLazyActionMap.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteLazyActionMap.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteListCellRenderer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteListCellRenderer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteListUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteListUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteLookAndFeel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteLookAndFeel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteMenuItemUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteMenuItemUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PalettePanelUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PalettePanelUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteRootPaneUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteRootPaneUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteSliderThumbIcon.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteSliderThumbIcon.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteSliderUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteSliderUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteTabbedPaneUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteTabbedPaneUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteTextComponentBorder.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteTextComponentBorder.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteTextFieldUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteTextFieldUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteToolBarBorder.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteToolBarBorder.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteToolBarUI.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteToolBarUI.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteUtilities.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\plaf\palette\PaletteUtilities.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\ToolBarLayout.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\ToolBarLayout.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\VerticalGridLayout.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\gui\VerticalGridLayout.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\text\ColorFormatter.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\text\ColorFormatter.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\text\ColorToolTipTextFormatter.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\text\ColorToolTipTextFormatter.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\text\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\java\org\jhotdraw\text\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\resources\org\jhotdraw\gui\Labels.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\resources\org\jhotdraw\gui\Labels.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-gui\src\main\resources\org\jhotdraw\gui\Labels_de.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-gui\src\main\resources\org\jhotdraw\gui\Labels_de.properties">
 </file>
 </checkstyle>

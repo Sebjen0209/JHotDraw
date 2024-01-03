@@ -1,359 +1,347 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawApplicationModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawApplicationModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawFigureFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawFigureFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawingPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawingPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawingPanelBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawingPanelBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\DrawView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\Main.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\Main.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\draw\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\figures\NodeFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\figures\NodeFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\figures\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\figures\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\Main.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\Main.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetApplet.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetApplet.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetApplicationModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetApplicationModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\NetView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\net\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\CombineAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\CombineAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\SplitAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\SplitAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\TogglePropertiesPanelAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\action\TogglePropertiesPanelAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGAttributedFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGAttributedFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGBezierFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGBezierFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGEllipseFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGEllipseFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGGroupFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGGroupFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGPathFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGPathFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGPathOutlineHandle.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGPathOutlineHandle.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGRectFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGRectFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGRectRadiusHandle.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\ODGRectRadiusHandle.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\figures\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\geom\EnhancedPath.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\geom\EnhancedPath.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\geom\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\geom\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\Gradient.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\Gradient.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\DefaultODGFigureFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\DefaultODGFigureFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\ODGFigureFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\ODGFigureFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\ODGInputFormat.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\ODGInputFormat.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\ODGStylesReader.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\ODGStylesReader.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\io\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\Main.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\Main.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGApplicationModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGApplicationModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGAttributeKeys.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGAttributeKeys.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGConstants.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGConstants.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGDrawing.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGDrawing.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGDrawingPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGDrawingPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGDrawingPanelBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGDrawingPanelBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGPropertiesPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGPropertiesPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGPropertiesPanelBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGPropertiesPanelBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\ODGView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\PathTool.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\odg\PathTool.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\DependencyFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\DependencyFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\SeparatorLineFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\SeparatorLineFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\TaskFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\figures\TaskFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\Main.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\Main.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertApplet.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertApplet.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertApplicationModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertApplicationModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\pert\PertView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\CombineAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\CombineAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\SplitAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\SplitAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\ViewSourceAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\ViewSourceAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AbstractToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AbstractToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AbstractToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AbstractToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AlignToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AlignToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AlignToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AlignToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ArrangeToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ArrangeToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ArrangeToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ArrangeToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\CanvasToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\CanvasToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\CanvasToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\CanvasToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\DrawingComponent.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\DrawingComponent.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\DrawingOpacityIcon.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\DrawingOpacityIcon.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FigureToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FigureToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FigureToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FigureToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FillToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FillToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FillToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FillToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FontToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FontToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FontToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FontToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\LinkToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\LinkToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\LinkToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\LinkToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\MessagePanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\MessagePanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ProgressIndicator.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ProgressIndicator.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SelectionOpacityIcon.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SelectionOpacityIcon.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ServerAuthenticationException.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ServerAuthenticationException.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\StrokeToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\StrokeToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\StrokeToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\StrokeToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SummaryToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SummaryToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SummaryToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SummaryToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ToolsToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ToolsToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ToolsToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ToolsToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ViewToolBar.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ViewToolBar.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ViewToolBarBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ViewToolBarBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\ConvexHullOutlineHandle.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\ConvexHullOutlineHandle.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\LinkHandle.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\LinkHandle.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGAttributedFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGAttributedFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGBezierFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGBezierFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGEllipseFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGEllipseFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGGroupFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGGroupFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGImageFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGImageFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGPathFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGPathFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGPathOutlineHandle.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGPathOutlineHandle.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGRectFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGRectFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGRectRadiusHandle.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGRectRadiusHandle.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGTextAreaFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGTextAreaFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGTextFigure.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGTextFigure.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\Gradient.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\Gradient.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\DefaultSVGFigureFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\DefaultSVGFigureFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\ImageMapOutputFormat.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\ImageMapOutputFormat.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGElementFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGElementFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGFigureFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGFigureFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGInputFormat.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGInputFormat.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGOutputFormat.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGOutputFormat.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGZInputFormat.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGZInputFormat.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGZOutputFormat.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\SVGZOutputFormat.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\LinearGradient.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\LinearGradient.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\Main.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\Main.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\PathTool.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\PathTool.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\RadialGradient.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\RadialGradient.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGApplet.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGApplet.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGApplicationModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGApplicationModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGAttributeKeys.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGAttributeKeys.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGConstants.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGConstants.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGCreateFromFileTool.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGCreateFromFileTool.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGDrawingPanel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGDrawingPanel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGDrawingPanelBeanInfo.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGDrawingPanelBeanInfo.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\SVGView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\FindAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\FindAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\ToggleLineNumbersAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\ToggleLineNumbersAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\ToggleLineWrapAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\ToggleLineWrapAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\ToggleStatusBarAction.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\action\ToggleStatusBarAction.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\CharacterSetAccessory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\CharacterSetAccessory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\FindDialog.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\FindDialog.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\io\LFWriter.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\io\LFWriter.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\io\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\io\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\JEditorArea.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\JEditorArea.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\Main.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\Main.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\regex\Matcher.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\regex\Matcher.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\regex\MatchType.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\regex\MatchType.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\regex\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\regex\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\TeddyApplicationModel.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\TeddyApplicationModel.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\TeddyView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\TeddyView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\NumberedEditorKit.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\NumberedEditorKit.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\NumberedParagraphView.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\NumberedParagraphView.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\NumberedViewFactory.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\NumberedViewFactory.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBarTest.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBarTest.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\DuplicateBDDTest.java">
-<error line="4" column="1" severity="error" message="Redundant import from the same package - org.jhotdraw.samples.svg.bdd.GivenDuplicateTest." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
-<error line="5" column="1" severity="error" message="Redundant import from the same package - org.jhotdraw.samples.svg.bdd.ThenDuplicateTest." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
-<error line="6" column="1" severity="error" message="Redundant import from the same package - org.jhotdraw.samples.svg.bdd.WhenDuplicateTest." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\DuplicateBDDTest.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\GivenDuplicateTest.java">
-<error line="23" column="41" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="23" column="44" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="23" column="50" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\GivenDuplicateTest.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\ThenDuplicateTest.java">
-<error line="5" column="8" severity="error" message="Unused import - com.tngtech.jgiven.annotation.ScenarioStage." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="6" column="8" severity="error" message="Unused import - com.tngtech.jgiven.annotation.ScenarioState." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
-<error line="30" column="33" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\ThenDuplicateTest.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\WhenDuplicateTest.java">
-<error line="31" column="41" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="31" column="43" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="31" column="49" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\WhenDuplicateTest.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\MainTest.java">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\MainTest.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\net\Labels.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\net\Labels.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\net\Labels_de.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\net\Labels_de.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\odg\Labels.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\odg\Labels.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\pert\Labels.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\pert\Labels.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\pert\Labels_de.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\pert\Labels_de.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\svg\Labels.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\svg\Labels.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\svg\Labels_de.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\svg\Labels_de.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\teddy\Labels.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\teddy\Labels.properties">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\teddy\Labels_de.properties">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\resources\org\jhotdraw\samples\teddy\Labels_de.properties">
 </file>
 </checkstyle>

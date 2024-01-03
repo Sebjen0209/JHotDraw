@@ -2,8 +2,6 @@ package org.jhotdraw.samples.svg.bdd;
 
 import com.tngtech.jgiven.Stage;
 import com.tngtech.jgiven.annotation.ExpectedScenarioState;
-import com.tngtech.jgiven.annotation.ScenarioStage;
-import com.tngtech.jgiven.annotation.ScenarioState;
 import org.jhotdraw.samples.svg.figures.SVGRectFigure;
 import org.mockito.Mockito;
 
@@ -27,7 +25,7 @@ public class ThenDuplicateTest extends Stage<ThenDuplicateTest> {
         assertEquals(100, rectangle.getWidth(), 0.001);
         assertEquals(100, rectangle.getHeight(), 0.001);
 
-        Mockito.verify(rectangle,Mockito.times(2)).clone();
+        Mockito.verify(rectangle, Mockito.times(2)).clone();
         return this;
     }
 }

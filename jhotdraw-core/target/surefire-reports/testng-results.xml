@@ -2,20 +2,20 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-02T11:29:28Z" name="Surefire suite" finished-at="2024-01-02T11:29:28Z" duration-ms="16">
+  <suite started-at="2024-01-03T16:42:48Z" name="Surefire suite" finished-at="2024-01-03T16:42:48Z" duration-ms="32">
     <groups>
     </groups>
-    <test started-at="2024-01-02T11:29:28Z" name="Surefire test" finished-at="2024-01-02T11:29:28Z" duration-ms="16">
+    <test started-at="2024-01-03T16:42:48Z" name="Surefire test" finished-at="2024-01-03T16:42:48Z" duration-ms="32">
       <class name="org.jhotdraw.draw.figure.AbstractFigureNGTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="setUpClass" finished-at="2024-01-02T12:29:28Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="setUpClass" finished-at="2024-01-03T17:42:48Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="setUpMethod" finished-at="2024-01-02T12:29:28Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="setUpMethod" finished-at="2024-01-03T17:42:48Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="testChangedWithoutWillChange()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="testChangedWithoutWillChange" finished-at="2024-01-02T12:29:28Z" duration-ms="1" status="PASS">
+        <test-method signature="testChangedWithoutWillChange()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="testChangedWithoutWillChange" finished-at="2024-01-03T17:42:48Z" duration-ms="5" status="PASS">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[changed was called without a prior call to willChange. 0]]>
@@ -25,9 +25,9 @@
 	at org.jhotdraw.draw.figure.AbstractFigure.changed(AbstractFigure.java:414)
 	at org.jhotdraw.draw.figure.AbstractFigureNGTest.testChangedWithoutWillChange(AbstractFigureNGTest.java:61)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
@@ -59,26 +59,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChangedWithoutWillChange -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="setUpMethod" finished-at="2024-01-02T12:29:28Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="setUpMethod" finished-at="2024-01-03T17:42:48Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="testWillChangeChangedEvents()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="testWillChangeChangedEvents" finished-at="2024-01-02T12:29:28Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="tearDownMethod" finished-at="2024-01-03T17:42:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testWillChangeChangedEvents()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="testWillChangeChangedEvents" finished-at="2024-01-03T17:42:48Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWillChangeChangedEvents -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="tearDownMethod" finished-at="2024-01-02T12:29:28Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="tearDownMethod" finished-at="2024-01-02T12:29:28Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@31304f14]" started-at="2024-01-02T12:29:28Z" name="tearDownClass" finished-at="2024-01-02T12:29:28Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="tearDownClass" finished-at="2024-01-03T17:42:48Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.draw.figure.AbstractFigureNGTest@74294adb]" started-at="2024-01-03T17:42:48Z" name="tearDownMethod" finished-at="2024-01-03T17:42:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
       </class> <!-- org.jhotdraw.draw.figure.AbstractFigureNGTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
