@@ -21,6 +21,16 @@ public class EllipseUnitTest {
     }
 
     @Test
+    public void EllipseDefaultCreation(){
+        SVGEllipseFigure ellipse =  SVGEllipseFigure.defaultSVGEllipse();
+        assertNotNull(ellipse);
+        assertEquals(0, ellipse.getX(), 0.0);
+        assertEquals(0, ellipse.getY(), 0.0);
+        assertEquals(0, ellipse.getWidth(), 0.0);
+        assertEquals(0, ellipse.getHeight(), 0.0);
+    }
+
+    @Test
     public void EllipseTransformation() {
         SVGEllipseFigure ellipse = new SVGEllipseFigure(10, 10, 15, 50);
 
@@ -34,3 +44,4 @@ public class EllipseUnitTest {
         assertEquals(50.0, ellipse.getHeight(), 0.0);
     }
 }
+
