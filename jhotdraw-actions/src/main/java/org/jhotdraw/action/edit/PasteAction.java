@@ -11,6 +11,8 @@ import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.event.*;
 import javax.swing.*;
+
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.datatransfer.ClipboardUtil;
 import org.jhotdraw.util.*;
 
@@ -55,6 +57,7 @@ public class PasteAction extends AbstractSelectionAction {
         labels.configureAction(this, ID);
     }
 
+    @FeatureEntryPoint("PasteActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;

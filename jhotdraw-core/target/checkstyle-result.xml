@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\AbstractConstrainer.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\AbstractDrawing.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\AbstractDrawingView.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\AbstractDrawingEditorAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\AbstractDrawingViewAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\AbstractSelectedAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\AlignAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\ApplyAttributesAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\AttributeAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\AttributeToggler.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\BringToFrontAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\ColorIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\DefaultAttributeAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\DrawingAttributeAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\DrawingColorChooserAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\DrawingColorChooserHandler.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\DrawingColorIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\EditorColorChooserAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\EditorColorIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\GroupAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\ImageBevelBorder.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\IncreaseHandleDetailLevelAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\LineDecorationIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\MoveAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\MoveConstrainedAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\PickAttributesAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\SelectionColorChooserAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\SelectionColorChooserHandler.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\SelectionColorIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\SelectSameAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\SendToBackAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\StrokeIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\ToggleGridAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\UngroupAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\ZoomAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\action\ZoomEditorAction.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\AttributeKey.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\AttributeKeys.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\AbstractConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\ChopBezierConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\ChopDiamondConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\ChopEllipseConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\ChopRectangleConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\ChopRoundRectangleConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\ChopTriangleConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\Connector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\LocatorConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\connector\StickyRectangleConnector.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\Constrainer.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\decoration\AbstractLineDecoration.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\decoration\ArrowTip.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\decoration\CompositeLineDecoration.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\decoration\GeneralPathTip.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\decoration\LineDecoration.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\decoration\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\decoration\PerpendicularBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DefaultDrawing.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DefaultDrawingEditor.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DefaultDrawingView.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DefaultDrawingViewBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DefaultDrawingViewTransferHandler.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DelegatorDrawingView.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\Drawing.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DrawingEditor.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DrawingEditorProxy.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\DrawingView.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\AbstractAttributeEditorHandler.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\AttributeChangeEdit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\BezierNodeEdit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\CompositeFigureEdit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\CompositeFigureEvent.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\CompositeFigureListener.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\DrawingAttributeEditorHandler.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\DrawingComponentRepainter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\FigureAdapter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\FigureAttributeEditorHandler.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\FigureEvent.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\FigureListener.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\FigureSelectionEvent.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\FigureSelectionListener.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\HandleEvent.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\HandleListener.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\HandleMulticaster.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\SelectionComponentDisplayer.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\SelectionComponentRepainter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\SetBoundsEdit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\ToolAdapter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\ToolEvent.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\ToolListener.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\TransformEdit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\event\TransformRestoreEdit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\AbstractAttributedCompositeFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\AbstractAttributedDecoratedFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\AbstractAttributedFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\AbstractCompositeFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\AbstractFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\BezierFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\CompositeFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\ConnectionFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\DecoratedFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\DiamondFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\EllipseFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\Figure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\GroupFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\ImageFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\ImageHolderFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\LabeledLineConnectionFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\LabelFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\LineConnectionFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\LineFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\ListFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\QuadTreeCompositeFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\RectangleFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\RoundRectangleFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\TextAreaFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\TextFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\TextHolderFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\figure\TriangleFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\FigureLayerComparator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\GraphicalCompositeFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\GridConstrainer.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\AbstractConnectionHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\AbstractHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\AbstractRotateHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\BezierControlPointHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\BezierNodeHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\BezierOutlineHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\BezierScaleHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\BoundsOutlineHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\CloseHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\ConnectionEndHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\ConnectionStartHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\ConnectorHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\DragHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\FontSizeHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\Handle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\HandleAttributeKeys.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\LocatorHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\MoveHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\NullHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\OrientationHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\ResizeHandleKit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\RotateHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\RoundRectangleRadiusHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\TextOverflowHandle.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\handle\TransformHandleKit.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\DOMStorableInputOutputFormat.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\ImageInputFormat.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\ImageOutputFormat.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\InputFormat.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\OutputFormat.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\SerializationInputOutputFormat.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\io\TextInputFormat.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\layouter\AbstractLayouter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\layouter\HorizontalLayouter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\layouter\Layouter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\layouter\LocatorLayouter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\layouter\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\layouter\VerticalLayouter.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\liner\CurvedLiner.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\liner\ElbowLiner.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\liner\Liner.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\liner\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\liner\SlantedLiner.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\AbstractLocator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\BezierLabelLocator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\BezierPointLocator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\FontSizeLocator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\Locator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\RelativeDecoratorLocator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\locator\RelativeLocator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\print\DrawingPageable.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\print\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\QuadTreeDrawing.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\RotationDirection.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\text\FloatingTextArea.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\text\FloatingTextField.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\text\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\AbstractTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\BezierTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\ConnectionTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\CreationTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\DefaultDragTracker.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\DefaultHandleTracker.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\DefaultSelectAreaTracker.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\DelegationSelectionTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\DnDTracker.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\DragTracker.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\HandleTracker.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\ImageTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\SelectAreaTracker.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\SelectionTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\TextAreaCreationTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\TextAreaEditingTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\TextCreationTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\TextEditingTool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\tool\Tool.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\java\org\jhotdraw\draw\TranslationDirection.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\test\java\org\jhotdraw\draw\figure\AbstractFigureNGTest.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\resources\org\jhotdraw\draw\Labels.properties">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\resources\org\jhotdraw\draw\Labels_de.properties">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\resources\org\jhotdraw\undo\Labels.properties">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-core\src\main\resources\org\jhotdraw\undo\Labels_de.properties">
+</file>
+</checkstyle>
