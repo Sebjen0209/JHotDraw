@@ -105,7 +105,7 @@ public class FontToolBar extends AbstractToolBar {
 
     @Override
     @FeatureEntryPoint("FontToolBar")
-    protected JComponent createDisclosedComponent(int state) {
+    public JComponent createDisclosedComponent(int state) {
         JPanel p = initializePanel();
 
         if (editor == null) {
@@ -118,6 +118,9 @@ public class FontToolBar extends AbstractToolBar {
                 break;
             case 2:
                 buildState2UI(p);
+                break;
+            default:
+                System.out.println("Error");
                 break;
         }
 
@@ -215,7 +218,7 @@ public class FontToolBar extends AbstractToolBar {
     }
 
     private void buildState2UI(JPanel p) {
-        // Similar to buildState1UI, with necessary modifications
+
     }
 
     private GridBagConstraints createConstraints(int gridx, int gridy, int anchor, Insets insets) {
