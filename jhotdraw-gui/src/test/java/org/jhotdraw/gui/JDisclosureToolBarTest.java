@@ -2,7 +2,6 @@ package org.jhotdraw.gui;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.jhotdraw.gui.JDisclosureToolBar;
 import org.junit.jupiter.api.Test;
 
 import javax.swing.*;
