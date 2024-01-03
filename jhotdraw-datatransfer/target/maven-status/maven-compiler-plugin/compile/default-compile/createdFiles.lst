@@ -1,0 +1,9 @@
+org\jhotdraw\datatransfer\AbstractTransferable.class
+org\jhotdraw\datatransfer\CompositeTransferable.class
+org\jhotdraw\datatransfer\OSXClipboard.class
+org\jhotdraw\datatransfer\AbstractClipboard.class
+org\jhotdraw\datatransfer\ImageTransferable.class
+org\jhotdraw\datatransfer\AWTClipboard.class
+org\jhotdraw\datatransfer\InputStreamTransferable.class
+org\jhotdraw\datatransfer\JNLPClipboard.class
+org\jhotdraw\datatransfer\ClipboardUtil.class

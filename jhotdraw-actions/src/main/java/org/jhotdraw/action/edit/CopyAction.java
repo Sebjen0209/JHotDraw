@@ -10,6 +10,8 @@ package org.jhotdraw.action.edit;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
 import org.jhotdraw.datatransfer.ClipboardUtil;
 import org.jhotdraw.util.*;
 
@@ -54,6 +56,7 @@ public class CopyAction extends AbstractSelectionAction {
         labels.configureAction(this, ID);
     }
 
+    @FeatureEntryPoint("CopyActionPerformed")
     @Override
     public void actionPerformed(ActionEvent evt) {
         JComponent c = target;

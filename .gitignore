@@ -1,4 +1,3 @@
-target
 *.patch
 *.class
 nb-configuration.xml

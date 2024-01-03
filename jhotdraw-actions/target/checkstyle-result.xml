@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\AbstractApplicationAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\AbstractViewAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\AbstractFindAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\AbstractSelectionAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\ClearSelectionAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\CopyAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\CutAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\DeleteAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\DuplicateAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\package-info.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\PasteAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\RedoAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\RemoveAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\SelectAllAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\edit\UndoAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\package-info.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\view\package-info.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\view\ToggleViewPropertyAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\view\ViewPropertyAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\window\ArrangeWindowsAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\window\FocusWindowAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\window\MaximizeWindowAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\window\MinimizeWindowAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\window\package-info.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\window\ToggleToolBarAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\java\org\jhotdraw\action\window\ToggleVisibleAction.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\resources\org\jhotdraw\action\Labels.properties">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\resources\org\jhotdraw\action\Labels_de.properties">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-actions\src\main\resources\org\jhotdraw\action\Labels_fr.properties">
+</file>
+</checkstyle>
