@@ -1,0 +1,14 @@
+<aspectj>
+
+	<aspects>
+		<concrete-aspect name="dk.sdu.mmmi.aspects.JHotDraw" extends="dk.sdu.mmmi.featuretracer.lib.ExecutionTracer">
+			<pointcut name="packages" expression="within(org.jhotdraw..*)"/>
+		</concrete-aspect>
+	</aspects>
+
+	<weaver>
+		<exclude within="! org.jhotdraw..*"/>
+		<include within="org.jhotdraw..*"/>
+	</weaver>
+
+</aspectj>

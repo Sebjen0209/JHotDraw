@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\AbstractClipboard.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\AbstractTransferable.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\AWTClipboard.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\ClipboardUtil.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\CompositeTransferable.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\ImageTransferable.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\InputStreamTransferable.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\JNLPClipboard.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\OSXClipboard.java">
+</file>
+<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-datatransfer\src\main\java\org\jhotdraw\datatransfer\package-info.java">
+</file>
+</checkstyle>
