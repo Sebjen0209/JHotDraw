@@ -130,72 +130,6 @@
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\action\ViewSourceAction.java">
 </file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AbstractToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AbstractToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AlignToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\AlignToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ArrangeToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ArrangeToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\CanvasToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\CanvasToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\DrawingComponent.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\DrawingOpacityIcon.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FigureToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FigureToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FillToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FillToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FontToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\FontToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\LinkToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\LinkToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\MessagePanel.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\package-info.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ProgressIndicator.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SelectionOpacityIcon.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ServerAuthenticationException.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\StrokeToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\StrokeToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SummaryToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\SummaryToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ToolsToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ToolsToolBarBeanInfo.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ViewToolBar.java">
-</file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\actionGUI\ViewToolBarBeanInfo.java">
-</file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\ConvexHullOutlineHandle.java">
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\LinkHandle.java">
@@ -227,6 +161,72 @@
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\figures\SVGTextFigure.java">
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\Gradient.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\AbstractToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\AbstractToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ActionsToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ActionsToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\AlignToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\AlignToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ArrangeToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ArrangeToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\CanvasToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\CanvasToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\DrawingComponent.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\DrawingOpacityIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\FigureToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\FigureToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\FillToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\FillToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\FontToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\FontToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\LinkToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\LinkToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\MessagePanel.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ProgressIndicator.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\SelectionOpacityIcon.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ServerAuthenticationException.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\StrokeToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\StrokeToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\SummaryToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\SummaryToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ToolsToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ToolsToolBarBeanInfo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ViewToolBar.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\gui\ViewToolBarBeanInfo.java">
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\svg\io\DefaultSVGFigureFactory.java">
 </file>
@@ -314,8 +314,6 @@
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\main\java\org\jhotdraw\samples\teddy\text\package-info.java">
 </file>
-<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\actionGUI\ActionsToolBarTest.java">
-</file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\DuplicateBDDTest.java">
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\GivenDuplicateTest.java">
@@ -323,6 +321,10 @@
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\ThenDuplicateTest.java">
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\bdd\WhenDuplicateTest.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\FontBarTest.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\gui\ActionsToolBarTest.java">
 </file>
 <file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-misc\src\test\java\org\jhotdraw\samples\svg\MainTest.java">
 </file>
