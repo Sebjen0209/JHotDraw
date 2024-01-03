@@ -15,7 +15,6 @@ import javax.swing.*;
 import org.jhotdraw.api.app.Disposable;
 import org.jhotdraw.draw.DrawingEditor;
 import org.jhotdraw.gui.JDisclosureToolBar;
-import static org.jhotdraw.gui.JDisclosureToolBar.DISCLOSURE_STATE_PROPERTY;
 import org.jhotdraw.util.prefs.PreferencesUtil;
 
 /**

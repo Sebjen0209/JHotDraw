@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\app\Application.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\app\ApplicationModel.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\app\Disposable.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\app\MenuBuilder.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\app\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\app\View.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\gui\ActivityModel.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\gui\Arrangeable.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\gui\AttributeEditor.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\gui\EditableComponent.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-api\src\main\java\org\jhotdraw\api\gui\URIChooser.java">
+</file>
+</checkstyle>

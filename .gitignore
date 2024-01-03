@@ -1,7 +1,13 @@
-target
 *.patch
 *.class
 nb-configuration.xml
 .idea/*
 *.ftf
 /jhotdraw-samples/jhotdraw-samples-misc/nbproject/
+
+jhotdraw-samples/jhotdraw-samples-misc/pom.xml
+
+**/ajcore.*.txt
+*ajcore*
+
+**/jgiven-reports/

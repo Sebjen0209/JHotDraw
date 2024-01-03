@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-03T17:11:17Z" name="Surefire suite" finished-at="2024-01-03T17:11:17Z" duration-ms="30">
+    <groups>
+    </groups>
+    <test started-at="2024-01-03T17:11:17Z" name="Surefire test" finished-at="2024-01-03T17:11:17Z" duration-ms="30">
+      <class name="org.jhotdraw.geom.BezierPathNGTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="setUpClass" finished-at="2024-01-03T18:11:17Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testPathIterator()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="testPathIterator" finished-at="2024-01-03T18:11:17Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPathIterator -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="setUpMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="setUpMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="tearDownMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="tearDownMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testPathIterator2()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="testPathIterator2" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPathIterator2 -->
+        <test-method signature="testToGeneralPath()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="testToGeneralPath" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToGeneralPath -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="setUpMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="tearDownMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="setUpMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testToPolygonArray()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="testToPolygonArray" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToPolygonArray -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="tearDownClass" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:org.jhotdraw.geom.BezierPathNGTest@fcd6521]" started-at="2024-01-03T18:11:17Z" name="tearDownMethod" finished-at="2024-01-03T18:11:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- org.jhotdraw.geom.BezierPathNGTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -164,7 +164,7 @@ public class ODGDrawingPanel extends JPanel {
         attributes.put(AttributeKeys.FILL_COLOR, Color.white);
         attributes.put(AttributeKeys.STROKE_COLOR, Color.black);
         ButtonFactory.addToolTo(tb, editor, new CreationTool(new SVGRectFigure(), attributes), "edit.createRectangle", drawLabels);
-        ButtonFactory.addToolTo(tb, editor, new CreationTool(new SVGEllipseFigure(), attributes), "edit.createEllipse", drawLabels);
+        ButtonFactory.addToolTo(tb, editor, new CreationTool(SVGEllipseFigure.defaultSVGEllipse(), attributes), "edit.createEllipse", drawLabels);
         ButtonFactory.addToolTo(tb, editor, new PathTool(new SVGPathFigure(), new SVGBezierFigure(true), attributes), "edit.createPolygon", drawLabels);
         attributes = new HashMap<AttributeKey<?>, Object>();
         attributes.put(AttributeKeys.FILL_COLOR, null);

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\color\CIEXYChromaticityDiagram.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\color\JMixer.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\color\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\color\WheelsAndSlidersMain.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\font\FontChooserMain.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\font\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\ActivityMonitorSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\AnimationSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\BezierDemo.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\BorderRectangleFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\ConnectingFiguresSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\CreationToolSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\DefaultDOMStorableSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\DnDMultiEditorSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\EditorSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\FileIconsSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\LabeledLineConnectionFigureSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\LayouterSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\MovableChildFiguresSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\MovableChildFiguresSampleWithAbstractDrawingView.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\MovableChildFiguresSampleWithDelegatorDrawingView.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\MultiEditorSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\package-info.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\SelectionToolSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\SmartConnectionFigureSample.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\StraightLineFigure.java">
+</file>
+<file name="C:\Github\JHotDraw\jhotdraw-samples\jhotdraw-samples-mini\src\main\java\org\jhotdraw\samples\mini\SVGDrawingPanelSample.java">
+</file>
+</checkstyle>
