@@ -8,9 +8,7 @@
 package org.jhotdraw.samples.svg.gui;
 
 import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
-import org.jhotdraw.draw.AttributeKey;
 import org.jhotdraw.draw.event.FigureAttributeEditorHandler;
-import org.jhotdraw.draw.event.SelectionComponentRepainter;
 import org.jhotdraw.formatter.FontFormatter;
 import org.jhotdraw.formatter.JavaNumberFormatter;
 import org.jhotdraw.gui.action.ButtonFactory;
@@ -157,7 +155,7 @@ public class FontToolBar extends AbstractToolBar {
         p.add(sizeField, gbc);
 
         JPopupButton sizePopupButton = createSizePopupButton(sizeField);
-        gbc = createConstraints(2, 1, GridBagConstraints.WEST, new Insets(3,0,0,0));
+        gbc = createConstraints(2, 1, GridBagConstraints.WEST, new Insets(3, 0, 0, 0));
         p.add(sizePopupButton, gbc);
 
         // Font style buttons

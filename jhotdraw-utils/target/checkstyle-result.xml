@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\AbstractBean.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\AbstractBean.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\BeansBinding.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\BeansBinding.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\WeakPropertyChangeListener.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\beans\WeakPropertyChangeListener.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\formatter\FontFormatter.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\formatter\FontFormatter.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\formatter\JavaNumberFormatter.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\formatter\JavaNumberFormatter.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Bezier.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Bezier.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\BezierPath.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\BezierPath.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\BezierPathIterator.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\BezierPathIterator.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\ConvexHull.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\ConvexHull.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Dimension2DDouble.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Dimension2DDouble.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\DoubleStroke.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\DoubleStroke.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Geom.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Geom.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\GrowStroke.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\GrowStroke.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Insets2D.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Insets2D.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\QuadTree.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\QuadTree.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Shapes.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\geom\Shapes.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\Base64.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\Base64.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\BoundedRangeInputStream.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\BoundedRangeInputStream.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\StreamPosTokenizer.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\io\StreamPosTokenizer.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\net\ClientHttpRequest.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\net\ClientHttpRequest.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\net\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\net\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\net\URIUtil.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\net\URIUtil.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\CompositeEdit.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\CompositeEdit.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\NonUndoableEdit.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\NonUndoableEdit.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\PropertyChangeEdit.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\PropertyChangeEdit.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\UndoRedoManager.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\undo\UndoRedoManager.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\ActionUtil.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\ActionUtil.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\Images.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\Images.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\LocaleUtil.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\LocaleUtil.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\Methods.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\Methods.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\prefs\package-info.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\prefs\package-info.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\prefs\PreferencesUtil.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\prefs\PreferencesUtil.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\prefs\ToolBarPrefsHandler.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\prefs\ToolBarPrefsHandler.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\ResourceBundleUtil.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\ResourceBundleUtil.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\ReversedList.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\main\java\org\jhotdraw\util\ReversedList.java">
 </file>
-<file name="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\src\test\java\org\jhotdraw\geom\BezierPathNGTest.java">
+<file name="C:\Github\JHotDraw\jhotdraw-utils\src\test\java\org\jhotdraw\geom\BezierPathNGTest.java">
 </file>
 </checkstyle>

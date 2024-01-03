@@ -20,7 +20,7 @@ public class GivenDuplicateTest extends Stage<GivenDuplicateTest> {
     public GivenDuplicateTest userWantsToDuplicate(){
         width = 200.0;
         height = 150.0;
-        rectangle = new SVGRectFigure(20,10,width,height);
+        rectangle = new SVGRectFigure(20, 10, width, height);
 
         graphics = Mockito.mock(Graphics2D.class);
         return this;

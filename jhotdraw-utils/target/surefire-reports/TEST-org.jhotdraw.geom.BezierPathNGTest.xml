@@ -1,68 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jhotdraw.geom.BezierPathNGTest" time="0.274" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jhotdraw.geom.BezierPathNGTest" time="0.327" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.specification.version" value="11"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\target\test-classes;C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\target\classes;C:\Users\Tryll\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\Tryll\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Tryll\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="C:\Github\JHotDraw\jhotdraw-utils\target\test-classes;C:\Github\JHotDraw\jhotdraw-utils\target\classes;C:\Users\shjar\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\shjar\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\shjar\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
-    <property name="user.timezone" value="Europe/Paris"/>
-    <property name="user.country.format" value="DK"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Copenhagen"/>
     <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Tryll\AppData\Local\Temp\surefire8147335380080504128\surefirebooter-20240102122922590_3.jar C:\Users\Tryll\AppData\Local\Temp\surefire8147335380080504128 2024-01-02T12-29-20_564-jvmRun1 surefire-20240102122922590_1tmp surefire_0-20240102122922590_2tmp"/>
+    <property name="user.country" value="DK"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\shjar\AppData\Local\Temp\surefire3073495565700048247\surefirebooter-20240103181116518_3.jar C:\Users\shjar\AppData\Local\Temp\surefire3073495565700048247 2024-01-03T18-11-12_684-jvmRun1 surefire-20240103181116518_1tmp surefire_0-20240103181116518_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\target\test-classes;C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils\target\classes;C:\Users\Tryll\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\Tryll\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Tryll\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Github\JHotDraw\jhotdraw-utils\target\test-classes;C:\Github\JHotDraw\jhotdraw-utils\target\classes;C:\Users\shjar\.m2\repository\org\testng\testng\6.8.21\testng-6.8.21.jar;C:\Users\shjar\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\shjar\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\Tryll"/>
-    <property name="user.language" value="en"/>
+    <property name="user.home" value="C:\Users\shjar"/>
+    <property name="user.language" value="da"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2023-04-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="basedir" value="C:\Github\JHotDraw\jhotdraw-utils"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Tryll\AppData\Local\Temp\surefire8147335380080504128\surefirebooter-20240102122922590_3.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shjar\AppData\Local\Temp\surefire3073495565700048247\surefirebooter-20240103181116518_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
-    <property name="user.name" value="Tryll"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="shjar"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="localRepository" value="C:\Users\Tryll\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\Tryll\AppData\Local\Temp\"/>
-    <property name="java.version" value="11.0.19"/>
-    <property name="user.dir" value="C:\Users\Tryll\Documents\Github\JHotDraw\jhotdraw-utils"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="C:\Users\shjar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\shjar\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.2"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Github\JHotDraw\jhotdraw-utils"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Tryll\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Tryll\AppData\Local\Programs\Python\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.4\bin;%JAVA_HOME%\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Packer;C:\Program Files\Java\jdk-11;C:\Program Files\dotnet\;C:\terraform_1.6.3_windows_386\;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Tryll\AppData\Local\Microsoft\WindowsApps;C:\Users\Tryll\AppData\Local\GitHubDesktop\bin;C:\Users\Tryll\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tryll\go\bin;C:\Users\Tryll\AppData\Roaming\npm;C:\Users\Tryll\.dotnet\tools;C:\Users\Tryll\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;."/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Maven\apache-maven-3.9.6\bin;C:\Users\shjar\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\shjar\AppData\Local\Programs\Python\Python311\;C:\Users\shjar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;C:\Users\shjar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.2\bin;C:\Users\shjar\AppData\Local\gitkraken\bin;C:\Users\shjar\AppData\Local\GitHubDesktop\bin;C:\Users\shjar\AppData\Roaming\npm;C:\Users\shjar\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
   <testcase name="testPathIterator" classname="org.jhotdraw.geom.BezierPathNGTest" time="0.006"/>
   <testcase name="testPathIterator2" classname="org.jhotdraw.geom.BezierPathNGTest" time="0.0"/>
-  <testcase name="testToGeneralPath" classname="org.jhotdraw.geom.BezierPathNGTest" time="0.0"/>
+  <testcase name="testToGeneralPath" classname="org.jhotdraw.geom.BezierPathNGTest" time="0.001"/>
   <testcase name="testToPolygonArray" classname="org.jhotdraw.geom.BezierPathNGTest" time="0.0"/>
 </testsuite>
