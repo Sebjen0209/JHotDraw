@@ -1,0 +1,71 @@
+{
+  "className": "org.jhotdraw.samples.svg.figures.ellipse.EllipseBDDTest",
+  "name": "Ellipse BDD",
+  "scenarios": [
+    {
+      "className": "org.jhotdraw.samples.svg.figures.ellipse.EllipseBDDTest",
+      "testMethodName": "DrawEllipse",
+      "description": "Draw ellipse",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "an empty view",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "an empty view"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 53662600
+            },
+            {
+              "name": "the user draws the ellipse",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the user draws the ellipse"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 11364000
+            },
+            {
+              "name": "the ellipse should be displayed on the view",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the ellipse should be displayed on the view"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1541300
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 93689000
+        }
+      ],
+      "durationInNanos": 93689000,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}

@@ -18,7 +18,6 @@ import javax.swing.border.*;
 import javax.swing.text.DefaultFormatterFactory;
 import org.jhotdraw.draw.DrawingView;
 import org.jhotdraw.draw.GridConstrainer;
-import org.jhotdraw.draw.action.*;
 import org.jhotdraw.gui.JLifeFormattedTextField;
 import org.jhotdraw.formatter.JavaNumberFormatter;
 import org.jhotdraw.util.*;

@@ -16,7 +16,8 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
-    - name: Build and Test with Maven
+
+    - name: Build with Maven
       env:
           SECRET_USER: ${{secrets.SECRET_USER}}
           SECRET_TOKEN: ${{secrets.SECRET_TOKEN}}
