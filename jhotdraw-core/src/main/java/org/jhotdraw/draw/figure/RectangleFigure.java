@@ -12,6 +12,8 @@ import java.awt.geom.*;
 import org.jhotdraw.draw.AttributeKeys;
 import org.jhotdraw.geom.Geom;
 
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
+
 /**
  * A {@link Figure} with a rectangular shape.
  *
@@ -43,6 +45,7 @@ public class RectangleFigure extends AbstractAttributedFigure {
         g.fill(r);
     }
 
+    @FeatureEntryPoint("DrawRectangle")
     @Override
     protected void drawStroke(Graphics2D g) {
         Rectangle2D.Double r = (Rectangle2D.Double) rectangle.clone();
@@ -90,6 +93,7 @@ public class RectangleFigure extends AbstractAttributedFigure {
      *
      * @param tx the transformation matrix.
      */
+    @FeatureEntryPoint("EditRectangle")
     @Override
     public void transform(AffineTransform tx) {
         Point2D.Double anchor = getStartPoint();

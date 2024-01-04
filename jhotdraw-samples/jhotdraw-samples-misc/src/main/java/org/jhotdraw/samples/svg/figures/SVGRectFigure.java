@@ -24,6 +24,9 @@ import org.jhotdraw.geom.Geom;
 import org.jhotdraw.geom.GrowStroke;
 import org.jhotdraw.samples.svg.Gradient;
 import org.jhotdraw.samples.svg.SVGAttributeKeys;
+
+import dk.sdu.mmmi.featuretracer.lib.FeatureEntryPoint;
+
 import static org.jhotdraw.samples.svg.SVGAttributeKeys.*;
 
 /**
@@ -76,6 +79,7 @@ public class SVGRectFigure extends SVGAttributedFigure implements SVGFigure {
         this(0, 0, 0, 0);
     }
 
+    @FeatureEntryPoint("DrawRectangle")
     public SVGRectFigure(double x, double y, double width, double height) {
         this(x, y, width, height, 0, 0);
     }
@@ -96,39 +100,44 @@ public class SVGRectFigure extends SVGAttributedFigure implements SVGFigure {
         }
     }
 
+    //Ny drawStroke
     @Override
-    protected void drawStroke(Graphics2D g) {
+    public void drawStroke(Graphics2D g) {
         if (roundrect.archeight == 0 && roundrect.arcwidth == 0) {
             g.draw(roundrect.getBounds2D());
         } else {
-            // We have to generate the path for the round rectangle manually,
-            // because the path of a Java RoundRectangle is drawn counter clockwise
-            // whereas an SVG rect needs to be drawn clockwise.
-            Path2D.Double p = new Path2D.Double();
-            double aw = roundrect.arcwidth / 2d;
-            double ah = roundrect.archeight / 2d;
-            p.moveTo((roundrect.x + aw), (float) roundrect.y);
-            p.lineTo((roundrect.x + roundrect.width - aw), (float) roundrect.y);
-            p.curveTo((roundrect.x + roundrect.width - aw * ACV), (float) roundrect.y,
-                    (roundrect.x + roundrect.width), (float) (roundrect.y + ah * ACV),
-                    (roundrect.x + roundrect.width), (roundrect.y + ah));
-            p.lineTo((roundrect.x + roundrect.width), (roundrect.y + roundrect.height - ah));
-            p.curveTo(
-                    (roundrect.x + roundrect.width), (roundrect.y + roundrect.height - ah * ACV),
-                    (roundrect.x + roundrect.width - aw * ACV), (roundrect.y + roundrect.height),
-                    (roundrect.x + roundrect.width - aw), (roundrect.y + roundrect.height));
-            p.lineTo((roundrect.x + aw), (roundrect.y + roundrect.height));
-            p.curveTo((roundrect.x + aw * ACV), (roundrect.y + roundrect.height),
-                    (roundrect.x), (roundrect.y + roundrect.height - ah * ACV),
-                    (float) roundrect.x, (roundrect.y + roundrect.height - ah));
-            p.lineTo((float) roundrect.x, (roundrect.y + ah));
-            p.curveTo((roundrect.x), (roundrect.y + ah * ACV),
-                    (roundrect.x + aw * ACV), (float) (roundrect.y),
-                    (float) (roundrect.x + aw), (float) (roundrect.y));
-            p.closePath();
-            g.draw(p);
+            drawRoundRectanglePath(g);
         }
     }
+
+    private void drawRoundRectanglePath(Graphics2D g) {
+        Path2D.Double path = new Path2D.Double();
+
+        double aw = roundrect.arcwidth / 2d;
+        double ah = roundrect.archeight / 2d;
+
+        path.moveTo((roundrect.x + aw), (float) roundrect.y);
+        path.lineTo((roundrect.x + roundrect.width - aw), (float) roundrect.y);
+        path.curveTo((roundrect.x + roundrect.width - aw * ACV), (float) roundrect.y,
+                    (roundrect.x + roundrect.width), (float) (roundrect.y + ah * ACV),
+                    (roundrect.x + roundrect.width), (roundrect.y + ah));
+        path.lineTo((roundrect.x + roundrect.width), (roundrect.y + roundrect.height - ah));
+        path.curveTo((roundrect.x + roundrect.width), (roundrect.y + roundrect.height - ah * ACV),
+                    (roundrect.x + roundrect.width - aw * ACV), (roundrect.y + roundrect.height),
+                    (roundrect.x + roundrect.width - aw), (roundrect.y + roundrect.height));
+        path.lineTo((roundrect.x + aw), (roundrect.y + roundrect.height));
+        path.curveTo((roundrect.x + aw * ACV), (roundrect.y + roundrect.height),
+                    (roundrect.x), (roundrect.y + roundrect.height - ah * ACV),
+                    (float) roundrect.x, (roundrect.y + roundrect.height - ah));
+        path.lineTo((float) roundrect.x, (roundrect.y + ah));
+        path.curveTo((roundrect.x), (roundrect.y + ah * ACV),
+                    (roundrect.x + aw * ACV), (float) (roundrect.y),
+                    (float) (roundrect.x + aw), (float) (roundrect.y));
+        path.closePath();
+
+        g.draw(path);
+    }
+    
 
     // SHAPE AND BOUNDS
     public double getX() {
@@ -269,37 +278,57 @@ public class SVGRectFigure extends SVGAttributedFigure implements SVGFigure {
      *
      * @param tx The transformation.
      */
+    @FeatureEntryPoint("EditRectangle")
+
+    //New transform
     @Override
     public void transform(AffineTransform tx) {
         invalidateTransformedShape();
-        if (get(TRANSFORM) != null
-                || //              (tx.getType() & (AffineTransform.TYPE_TRANSLATION | AffineTransform.TYPE_MASK_SCALE)) != tx.getType()) {
-                (tx.getType() & (AffineTransform.TYPE_TRANSLATION)) != tx.getType()) {
-            if (get(TRANSFORM) == null) {
-                set(TRANSFORM, (AffineTransform) tx.clone());
-            } else {
-                AffineTransform t = TRANSFORM.getClone(this);
-                t.preConcatenate(tx);
-                set(TRANSFORM, t);
-            }
+
+        if (shouldApplyTransform(tx)) {
+            applyTransform(tx);
         } else {
-            Point2D.Double anchor = getStartPoint();
-            Point2D.Double lead = getEndPoint();
-            setBounds(
-                    (Point2D.Double) tx.transform(anchor, anchor),
-                    (Point2D.Double) tx.transform(lead, lead));
-            if (get(FILL_GRADIENT) != null
-                    && !get(FILL_GRADIENT).isRelativeToFigureBounds()) {
-                Gradient g = FILL_GRADIENT.getClone(this);
-                g.transform(tx);
-                set(FILL_GRADIENT, g);
-            }
-            if (get(STROKE_GRADIENT) != null
-                    && !get(STROKE_GRADIENT).isRelativeToFigureBounds()) {
-                Gradient g = STROKE_GRADIENT.getClone(this);
-                g.transform(tx);
-                set(STROKE_GRADIENT, g);
-            }
+            updateBoundsAndGradients(tx);
+        }
+    }
+
+    private boolean shouldApplyTransform(AffineTransform tx) {
+        return (get(TRANSFORM) != null) || ((tx.getType() & AffineTransform.TYPE_TRANSLATION) != tx.getType());
+    }
+
+    private void applyTransform(AffineTransform tx) {
+        if (get(TRANSFORM) == null) {
+            set(TRANSFORM, (AffineTransform) tx.clone());
+        } else {
+            AffineTransform existingTransform = TRANSFORM.getClone(this);
+            existingTransform.preConcatenate(tx);
+            set(TRANSFORM, existingTransform);
+        }
+    }
+
+    private void updateBoundsAndGradients(AffineTransform tx) {
+        Point2D.Double anchor = getStartPoint();
+        Point2D.Double lead = getEndPoint();
+        
+        setBounds(
+            (Point2D.Double) tx.transform(anchor, anchor),
+            (Point2D.Double) tx.transform(lead, lead)
+        );
+        
+        updateGradientTransformations(tx);
+    }
+
+    private void updateGradientTransformations(AffineTransform tx) {
+        if (get(FILL_GRADIENT) != null && !get(FILL_GRADIENT).isRelativeToFigureBounds()) {
+            Gradient fillGradient = FILL_GRADIENT.getClone(this);
+            fillGradient.transform(tx);
+            set(FILL_GRADIENT, fillGradient);
+        }
+
+        if (get(STROKE_GRADIENT) != null && !get(STROKE_GRADIENT).isRelativeToFigureBounds()) {
+            Gradient strokeGradient = STROKE_GRADIENT.getClone(this);
+            strokeGradient.transform(tx);
+            set(STROKE_GRADIENT, strokeGradient);
         }
     }
 
