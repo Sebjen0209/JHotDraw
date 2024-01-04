@@ -1,0 +1,76 @@
+{
+  "className": "org.jhotdraw.samples.svg.rectangle.RectangleBDDTest",
+  "name": "Rectangle BDD",
+  "scenarios": [
+    {
+      "className": "org.jhotdraw.samples.svg.rectangle.RectangleBDDTest",
+      "testMethodName": "DrawRectangle",
+      "description": "Draw rectangle",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "an empty view",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "an empty view"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 51843400,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "the user draws rectangle",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the user draws rectangle"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 14094300,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "the rectangle should be displayed on the view",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "the rectangle should be displayed on the view"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 568300,
+              "depth": 0,
+              "parentFailed": false
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 109467800
+        }
+      ],
+      "casesAsTable": false,
+      "durationInNanos": 109467800
+    }
+  ],
+  "tagMap": {}
+}
